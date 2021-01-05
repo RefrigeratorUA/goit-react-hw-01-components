@@ -8,6 +8,9 @@ export default function App() {
         <li>
           <h2>Где ключи?</h2>
         </li>
+        <li>
+          <h2>Добавил и убрал ошибку</h2>
+        </li>
       </ul>
     </div>
   );

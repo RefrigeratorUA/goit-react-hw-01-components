@@ -1,0 +1,26 @@
+.profile {
+  width: 400px;
+  margin: 40px auto;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+.avatar {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.description p {
+  text-align: center;
+}
+.name {
+  font-size: 22px;
+  font-weight: 700;
+}
+.tag,
+.location {
+  font-size: 20px;
+  color: #7c7979;
+}

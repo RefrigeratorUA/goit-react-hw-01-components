@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,KACE,uBAAwB,CACxB,iBACF","file":"main.6aaddf44.chunk.css","sourcesContent":[".box {\r\n  border: 1px solid tomato;\r\n  border-radius: 2px;\r\n}\r\n"]}

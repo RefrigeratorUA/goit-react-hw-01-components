@@ -1,9 +1,11 @@
-// import ListExample from './components/ListExample/ListExample';
-// const jsonObj = [{ id: 1, text: 'Привет, реакт!' }, { id: 2, text: 'Где ключи?' }, {}];
 import Profile from './components/Profile/Profile';
 import user from './user.json';
 import Statistics from './components/Statistics/Statistics';
 import statisticalData from './statistical-data.json';
+import FriendList from './components/FriendList/FriendList';
+import friends from './friends.json';
+import TransactionHistory from './components/TransactionHistory/TransactionHistory';
+import transactions from './transactions.json';
 
 export default function App() {
   return (
@@ -15,7 +17,10 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics title="Это можно удалить" stats={statisticalData} />
+      <Statistics title="Заголовок (может и не быть)" stats={statisticalData} />
+      <Statistics stats={statisticalData} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 }

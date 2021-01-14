@@ -20,10 +20,10 @@ function ProfileStats({ followers = 0, likes = 0, views = 0 }) {
   );
 }
 
-export default ProfileStats;
-
 ProfileStats.propTypes = {
   followers: PropTypes.number,
   likes: PropTypes.number,
   views: PropTypes.number,
 };
+
+export default ProfileStats;
